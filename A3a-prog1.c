@@ -8,7 +8,8 @@ int main()
 	scanf("%c",&ch);
 	printf("Enter a number.\n");
 	scanf("%d", &num);
-
+	
+	// Using while loop
 	while (i < num)
 	{
 		printf("%-2c", ch);
