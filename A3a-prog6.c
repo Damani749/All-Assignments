@@ -10,10 +10,10 @@ int main()
 	while (count <= num/2)
 	{
 		if (num % count == 0)
-			printf("%d, ",count);
+			printf(" %d ,",count);
 		count ++;
 	}
-	printf("\n");
+	printf("\b \n");
 
 	return 0;
 }
