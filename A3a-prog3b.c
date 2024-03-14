@@ -5,7 +5,8 @@ int main()
 	int num, rem = 0,revNum = 0;
 	printf("Enter a number whose reverse you want.\n");
 	scanf("%d",&num);
-
+	
+	// Using while loop
 	while (num != 0)
 	{
 		rem = num % 10;
