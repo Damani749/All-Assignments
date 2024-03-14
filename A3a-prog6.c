@@ -7,6 +7,8 @@ int main()
 	scanf("%d", &num);
 	
 	printf("The factors are: ");
+
+	// using while loop
 	while (count <= num/2)
 	{
 		if (num % count == 0)
@@ -14,6 +16,5 @@ int main()
 		count ++;
 	}
 	printf("\b \n");
-
 	return 0;
 }
