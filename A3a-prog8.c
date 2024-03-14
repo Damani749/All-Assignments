@@ -2,19 +2,21 @@
 
 int main()
 {
-	int num;
+	int num,i;
 	printf("Enter the number whose prime factors you want.\n");
 	scanf("%d", &num);
+	printf("%d = ",num);
 
-	for (int i = 2; num > 1; i++) 
+	for (i = 2; i <= num; ++i) 
 	{
 		while (num % i == 0) 
 		{
-			printf("%d ", i);
-			printf("*");
-			num = num / i;         
-		}     
+			printf("%d", i);
+			num /= i;
+			if (num != 1)
+				printf("*");  
+		}
 	}
-	printf("\b \n");
+	printf("\n");
 	return 0;
 } 
