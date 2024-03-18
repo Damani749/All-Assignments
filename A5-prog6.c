@@ -46,6 +46,8 @@ void remove_dup(int *arr, int size)
 	printf("\n");
 }
 
+//--------------------------SELECTION SORT------------------------------------------------//
+
 void sort_array(int *arr, int size)
 {
 	for (int i = 0; i < size-1; i++)
